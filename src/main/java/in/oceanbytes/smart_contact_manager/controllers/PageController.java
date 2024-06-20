@@ -9,6 +9,6 @@ public class PageController {
     @RequestMapping("/home")
     public String home() {
         System.out.println("Home Page");
-        return "Home";
+        return "home";
     }
 }
