@@ -11,4 +11,39 @@ public class PageController {
         System.out.println("Home Page");
         return "home";
     }
+
+    //about page
+    @RequestMapping("/about")
+    public String aboutPage() {
+        System.out.println("About Page");
+        return "about";
+    }
+
+    //service page
+    @RequestMapping("/services")
+    public String servicesPage() {
+        System.out.println("Services Page");
+        return "services";
+    }
+
+    //contact page
+    @RequestMapping("/contact")
+    public String contactPage() {
+        System.out.println("Contact Page");
+        return "contact";
+    }
+
+    //login page
+    @RequestMapping("/login")
+    public String loginPage() {
+        System.out.println("Login Page");
+        return "login";
+    }
+
+    //register page
+    @RequestMapping("/register")
+    public String registerPage() {
+        System.out.println("Register Page");
+        return "register";
+    }
 }
