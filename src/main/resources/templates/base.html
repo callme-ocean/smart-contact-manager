@@ -12,12 +12,11 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="dark:bg-gray-900 dark:text-white">
+<body class="dark:bg-gray-900 bg-gray-100 dark:text-white">
 
     <!-- common header -->
-    <div data-th-replace="navbar :: navbar">
+    <div data-th-replace="navbar :: navbar"></div>
 
-    </div>
     <!-- main content -->
     <div class="p-4">
         <section data-th-replace="${content}"></section>
